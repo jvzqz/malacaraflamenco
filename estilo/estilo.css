@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    bottom: 0;
+}
+
+.texto_nav {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 35px;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.color-encabezado {
+    background-color: rgb(26, 12, 22)
+}
+
+.cuerpo {
+    background-color: rgb(26, 12, 22);
+    color: cornsilk;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 40px;
+}
+
+.titulos {
+    color: cornsilk;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 70px;
+    background-color: rgb(26, 12, 22);
+    margin: 20px;
+}
+
+#home {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 850px;
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: cornsilk;
+    padding-left: 30px;
+    padding-top: 30px;    
+}
+
+.piedepagina {
+    background-color: rgb(26, 12, 22);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    gap: 20px;  
+}
+
+.logos {
+    color: cornsilk;
+}
+
+.titulo_footer {
+    font-size: 50px;
+    margin: 0;
+}
+
+#malacara_home {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+#subtitulo_home {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 50px;
+}
+
+#texto_home {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 40px;
+}
+
+#malacara_conocenos {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: cornsilk;
+    background-color: rgb(26, 12, 22);
+}
+
+#conocenos_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.texto_conocenos {
+    color: cornsilk;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 20 px;
+    background-color: rgb(26, 12, 22);
+}
+
+#seccion_fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 30px;
+    gap: 10px;
+}
+
+.foto {
+    height: 500px;
+    width: 400px;
+}
+
+#seccion_video {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.titulo_galeria {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.estilo_galeria {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#dondeestamos_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    gap: 30px;
+}
+
+#carrito_contactanos_flex {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px;
+    gap: 30px;
+}
+    
+.botones {
+    height: 70px;
+    width: 100px;
+    background-color: rgb(65, 57, 57);
+    font-family: 'Alumni Sans Pinstripe', sans-serif; 
+    font-size: 40px;
+    color: cornsilk;
+    border-radius: 15px;   
+}
+
+.botones:hover {
+    background-color: cornsilk;
+    color: rgb(65, 57, 57);
+}
+
+#bastardilla {
+    font-style: italic;
+    font-size: 20px;
+}
+
+ @media only screen and (max-width:768px) {}
+
+
+
+
+
+ @media only screen and (max-width:578px) {
+
+    #malacara_home {
+        font-size: 30px;
+        padding-left: 7px;
+        padding-top: 7px;
+    }
+    
+    #subtitulo_home {
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    #texto_home {
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        }
+
+    .cuerpo {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .titulos {
+        font-size: 30px;
+    }
+
+    .titulo_footer {
+        font-size: 25px;
+    }
+    
+    #dondeestamos_flex {
+        margin: 7px;
+        gap: 7px;
+    }
+
+    #mapa_iframe {
+        width: 300px;
+    }
+
+    #seccion_fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .foto {
+        height: 300px;
+        width: 250px;
+    }
+    
+    #seccion_video {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .videos {
+        height: 300px;
+        width: 250px;
+    }
+    
+    .titulo_galeria {
+        margin: 10px;
+    }
+    
+    .estilo_galeria {
+        font-size: 20px;
+    }
+ }
+    
