@@ -1,0 +1,16 @@
+#dondeestamos_grid{
+    display: grid;
+    grid-template-areas: "parrafo_mapa" "titulo_mapa" "mapa";
+    justify-items: center;
+    margin: 30px;
+    gap: 30px;
+   .parrafo_mapa {
+    grid-area: parrafo_mapa;
+   }
+   .titulo_mapa {
+    grid-area: titulo_mapa;
+   }
+   #mapa {
+    grid-area: mapa;
+   }
+}

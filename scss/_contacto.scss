@@ -1,0 +1,23 @@
+.contactanos_grid {
+    display: grid;
+    grid-template-areas: "formulario_nombre" "formulario_mail" "formulario_mensaje""boton_contactanos";
+    margin-left: 50px;
+    gap: 30px;
+   .formulario_nombre {
+    grid-area: formulario_nombre;
+   }
+
+   .formulario_mail {
+    grid-area: formulario_mail; 
+   }
+
+   .formulario_mensaje {
+    grid-area: formulario_mensaje;
+   }
+
+   .boton_contactanos {
+    grid-area: boton_contactanos;
+    display: flex;
+    justify-content: center;
+   }
+}

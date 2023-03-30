@@ -1,0 +1,28 @@
+#home {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 3fr;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 850px;
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: cornsilk;
+    padding-left: 30px;
+    padding-top: 30px;
+        
+    #malacara_home {
+        font-family:'Times New Roman', Times, serif;
+        font-size: 100px;
+    }
+    
+    #subtitulo_home {
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 50px;
+    }
+    
+    #texto_home {
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,24 @@
+#carrito_grid {
+    display: grid;
+    grid-template-areas: "formulario_fecha" "formulario_cantidad" "boton_carrito" "parrafo_carrito" ;
+    margin: 50px;
+    gap: 30px;
+   .formulario_fecha {
+    grid-area: formulario_fecha;  
+   } 
+   .formulario_cantidad {
+    grid-area: formulario_cantidad;
+   }
+   .boton_carrito {
+    display: flex;
+    grid-area: boton_carrito;
+    justify-content: center;  
+   }
+   .parrafo_carrito {
+    grid-area: parrafo_carrito; 
+       #bastardilla {
+        font-style: italic;
+        font-size: 20px;
+       }
+   }
+}
